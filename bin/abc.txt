@@ -1,0 +1,2 @@
+"oracle://username:password@hostname:1521/service_name",
+"oracle://username:password@hostname:1521/?sid=service_name"
