@@ -20,3 +20,9 @@ If you want to learn more about creating good readme files then refer the follow
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
 
 PAT6q6krz3miue2me4pnabqx5xfrjzrfbpqiiblr5yfzxocitrc3bxq
+
+"postgresql://username:password@hostname:5432/database_name",
+
+Server=myServerName\\myInstanceName;Database=myDataBase;User Id=myUsername;Password=myPassword;
+
+oracle://username:password@hostname:1521/service_name
