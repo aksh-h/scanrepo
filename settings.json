@@ -1,0 +1,5 @@
+{
+
+   "sqllite": "sqlite:///:memory:",
+    "mssql" : "mssql://username:password@hostname:1433/database_name"
+}
