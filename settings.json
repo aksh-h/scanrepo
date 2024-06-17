@@ -1,5 +1,8 @@
 {
 
    "sqllite": "sqlite:///:memory:",
-    "mssql" : "mssql://username:password@hostname:1433/database_name"
+    "mssql" : "mssql://username:password@hostname:1433/database_name",
+    "username":"akshay",
+    "pwd":"password",
+    "email":"h.akshay@outlook.com"
 }
