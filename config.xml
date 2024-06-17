@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Complex type for a key-value pair -->
+  <xs:complexType name="KeyValuePairType">
+    <xs:sequence>
+      <xs:element name="username" type="h.akshay@outlook.com"/>
+      <xs:element name="pass" type="abc123"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Root element containing multiple key-value pairs -->
+  <xs:element name="KeyValuePairs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="KeyValuePair" type="KeyValuePairType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
